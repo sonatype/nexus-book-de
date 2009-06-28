@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.nexusbook</groupId>
-  <artifactId>nxbook-parent</artifactId>
+  <artifactId>nxbook-parent-de</artifactId>
   <version>0.9</version>
   <packaging>pom</packaging>
-  <name>Respository Management with Nexus</name>
+  <name>Respository Management with Nexus (German)</name>
   <description>A book about Sonatype Nexus</description>
   <url>http://nexus.sonatype.org/book</url>
   <organization>
@@ -39,12 +39,12 @@
     </developer>
   </developers>
   <modules>
-    <module>nxbook-content</module>
-    <module>nxbook-eclipse</module>
-    <module>nxbook-examples</module>
-    <module>nxbook-html</module>
-    <module>nxbook-pdf</module>
-    <module>nxbook-site</module>
+    <module>nxbook-content-de</module>
+    <module>nxbook-eclipse-de</module>
+    <module>nxbook-examples-de</module>
+    <module>nxbook-html-de</module>
+    <module>nxbook-pdf-de</module>
+    <module>nxbook-site-de</module>
   </modules>
   <profiles>
     <profile>
@@ -148,9 +148,9 @@
     </plugins>
   </build>
   <scm>
-    <connection>scm:git:git://github.com/sonatype/nexus-book.git</connection>
-    <url>scm:git:git://github.com/sonatype/nexus-book.git</url>
-    <developerConnection>scm:git:git://github.com/sonatype/nexus-book.git</developerConnection>	
+    <connection>scm:git:git://github.com/sonatype/nexus-book-de.git</connection>
+    <url>scm:git:git://github.com/sonatype/nexus-book-de.git</url>
+    <developerConnection>scm:git:git://github.com/sonatype/nexus-book-de.git</developerConnection>	
   </scm>
   <distributionManagement>
     <repository>

@@ -2,12 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.sonatype.nexusbook</groupId>
-    <artifactId>nxbook-parent</artifactId>
+    <artifactId>nxbook-parent-de</artifactId>
     <version>0.9</version>
   </parent>
-  <artifactId>nxbook-site</artifactId>
+  <artifactId>nxbook-site-de</artifactId>
   <packaging>jar</packaging>
-  <name>Repository Management with Nexus</name>
+  <name>Nexus Book Site (German)</name>
   <description>A book about Sonatype Nexus</description>
   <build>
     <plugins>
@@ -24,11 +24,11 @@
 	    <artifactItems>
 	      <artifactItem>
 		<groupId>${project.groupId}</groupId>
-		<artifactId>nxbook-html</artifactId>
+		<artifactId>nxbook-html-de</artifactId>
 		<version>${project.version}</version>
 	      </artifactItem>
 	    </artifactItems>
-	    <outputDirectory>${basedir}/target/site/reference</outputDirectory>
+	    <outputDirectory>${basedir}/target/site/reference_de</outputDirectory>
 	  </configuration>
 	</execution>
 	<execution>
@@ -41,7 +41,7 @@
 	    <artifactItems>
 	      <artifactItem>
 		<groupId>${project.groupId}</groupId>
-		<artifactId>nxbook-examples</artifactId>
+		<artifactId>nxbook-examples-de</artifactId>
 		<version>${project.version}</version>
 		<classifier>src</classifier>
 		<type>zip</type>
@@ -60,7 +60,7 @@
 	    <artifactItems>
 	      <artifactItem>
 		<groupId>${project.groupId}</groupId>
-		<artifactId>nxbook-pdf</artifactId>
+		<artifactId>nxbook-pdf-de</artifactId>
 		<version>${project.version}</version>
 		<type>pdf</type>
 	      </artifactItem>

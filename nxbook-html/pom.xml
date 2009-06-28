@@ -2,12 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
 	<groupId>org.sonatype.nexusbook</groupId>
-	<artifactId>nxbook-parent</artifactId>
+	<artifactId>nxbook-parent-de</artifactId>
 	<version>0.9</version>
   </parent>
-  <artifactId>nxbook-html</artifactId>
+  <artifactId>nxbook-html-de</artifactId>
   <packaging>jar</packaging>
-  <name>Repository Management with Nexus</name>
+  <name>Nexus Book HTML (German)</name>
   <description>A book about Sonatype Nexus</description>
   <build>
 		<resources>
@@ -86,7 +86,7 @@
 							<artifactItems>
 								<artifactItem>
 									<groupId>${project.groupId}</groupId>
-									<artifactId>nxbook-content</artifactId>
+									<artifactId>nxbook-content-de</artifactId>
 									<version>${project.version}</version>
 								</artifactItem>
 							</artifactItems>
@@ -108,7 +108,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>nxbook-content</artifactId>
+			<artifactId>nxbook-content-de</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
